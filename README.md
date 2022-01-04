@@ -1,6 +1,6 @@
-#GHFollowers
+# GHFollowers
 
-##General Description
+## General Description
 The application displays a list of followers for a specific user on Github.
 ## Screens
 ### SearchVC
@@ -15,5 +15,5 @@ The application displays a list of followers for a specific user on Github.
 ### UserInfoVC
 
 
-##About
-This project were developed by following the tutorial series from Sean Allen. 
+## About
+ 
