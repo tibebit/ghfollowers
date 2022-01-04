@@ -99,20 +99,6 @@ class FollowerListVC: GFDataLoadingVC {
             isLoadingMoreFollowers = false
             dismissLoadingView()
         }
-//        NetworkManager.shared.getFollowers(for: username, page: page) { [weak self]
-//            result in
-//            guard let self = self else {return}
-//            self.dismissLoadingView()
-//            switch result {
-//                case .success(let followers):
-//                self.updateUI(with: followers)
-//
-//                case .failure(let error):
-//                    self.presentGFAlertOnMainThread(title: "Bad Stuff Happened", message: error.rawValue, buttonTitle: "Ok")
-//            }
-//            self.isLoadingMoreFollowers = false
-//        }
-        
     }
     
     
@@ -218,6 +204,7 @@ extension FollowerListVC: UICollectionViewDelegate {
 
 
 extension FollowerListVC: UISearchResultsUpdating {
+    
     func updateSearchResults(for searchController: UISearchController) {
         guard let filter = searchController.searchBar.text, !filter.isEmpty else {
             filteredFollowers.removeAll()
@@ -235,6 +222,7 @@ extension FollowerListVC: UISearchResultsUpdating {
 
 
 extension FollowerListVC: UserInfoVCDelegate {
+    
     func didRequestFollowers(for username: String) {
         self.username = username
         title = username

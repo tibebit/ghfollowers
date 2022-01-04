@@ -12,6 +12,7 @@ class FavoriteListVC: GFDataLoadingVC {
     let tableView = UITableView()
     var favorites = [Follower]()
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         configureViewController()
@@ -74,6 +75,7 @@ class FavoriteListVC: GFDataLoadingVC {
 
 
 extension FavoriteListVC: UITableViewDelegate, UITableViewDataSource {
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return favorites.count
     }

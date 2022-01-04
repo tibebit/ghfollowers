@@ -27,7 +27,6 @@ class GFButton: UIButton {
     
     
     private func configure() {
-        
         configuration = .tinted()
         configuration?.cornerStyle = .medium
         translatesAutoresizingMaskIntoConstraints = false
