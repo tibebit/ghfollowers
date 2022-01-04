@@ -15,6 +15,13 @@
 		CD3783FE277DC0EC0096DAD1 /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3783FD277DC0EC0096DAD1 /* GFTabBarController.swift */; };
 		CD39F22827776EE600027D8C /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD39F22727776EE600027D8C /* GFItemInfoView.swift */; };
 		CD39F22A277772F600027D8C /* GFItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD39F229277772F600027D8C /* GFItemInfoVC.swift */; };
+		CD4EC2212784D55600581806 /* SearchVC-Interface.png in Resources */ = {isa = PBXBuildFile; fileRef = CD4EC21F2784D55600581806 /* SearchVC-Interface.png */; };
+		CD4EC2222784D55600581806 /* SearchVC-Textfield.png in Resources */ = {isa = PBXBuildFile; fileRef = CD4EC2202784D55600581806 /* SearchVC-Textfield.png */; };
+		CD4EC2282784D56100581806 /* FollowerListVC-Modal-1.png in Resources */ = {isa = PBXBuildFile; fileRef = CD4EC2232784D56100581806 /* FollowerListVC-Modal-1.png */; };
+		CD4EC2292784D56100581806 /* FollowerListVC-Modal-2.png in Resources */ = {isa = PBXBuildFile; fileRef = CD4EC2242784D56100581806 /* FollowerListVC-Modal-2.png */; };
+		CD4EC22A2784D56100581806 /* SafariVC.png in Resources */ = {isa = PBXBuildFile; fileRef = CD4EC2252784D56100581806 /* SafariVC.png */; };
+		CD4EC22B2784D56100581806 /* FollowerListVC-Interface.png in Resources */ = {isa = PBXBuildFile; fileRef = CD4EC2262784D56100581806 /* FollowerListVC-Interface.png */; };
+		CD4EC22C2784D56100581806 /* FavoriteListVC-Interface.png in Resources */ = {isa = PBXBuildFile; fileRef = CD4EC2272784D56100581806 /* FavoriteListVC-Interface.png */; };
 		CD5F465B2769B084007D2B93 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5F465A2769B084007D2B93 /* GFButton.swift */; };
 		CD5F465D2769B346007D2B93 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5F465C2769B346007D2B93 /* GFTextField.swift */; };
 		CD5F465F2769BF33007D2B93 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5F465E2769BF33007D2B93 /* FollowerListVC.swift */; };
@@ -75,6 +82,13 @@
 		CD3783FD277DC0EC0096DAD1 /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
 		CD39F22727776EE600027D8C /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
 		CD39F229277772F600027D8C /* GFItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoVC.swift; sourceTree = "<group>"; };
+		CD4EC21F2784D55600581806 /* SearchVC-Interface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SearchVC-Interface.png"; sourceTree = "<group>"; };
+		CD4EC2202784D55600581806 /* SearchVC-Textfield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SearchVC-Textfield.png"; sourceTree = "<group>"; };
+		CD4EC2232784D56100581806 /* FollowerListVC-Modal-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FollowerListVC-Modal-1.png"; sourceTree = "<group>"; };
+		CD4EC2242784D56100581806 /* FollowerListVC-Modal-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FollowerListVC-Modal-2.png"; sourceTree = "<group>"; };
+		CD4EC2252784D56100581806 /* SafariVC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SafariVC.png; sourceTree = "<group>"; };
+		CD4EC2262784D56100581806 /* FollowerListVC-Interface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FollowerListVC-Interface.png"; sourceTree = "<group>"; };
+		CD4EC2272784D56100581806 /* FavoriteListVC-Interface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FavoriteListVC-Interface.png"; sourceTree = "<group>"; };
 		CD5F465A2769B084007D2B93 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		CD5F465C2769B346007D2B93 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		CD5F465E2769BF33007D2B93 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
@@ -154,6 +168,20 @@
 				CD3783FD277DC0EC0096DAD1 /* GFTabBarController.swift */,
 			);
 			path = TabBarControllers;
+			sourceTree = "<group>";
+		};
+		CD4EC21E2784D53E00581806 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD4EC21F2784D55600581806 /* SearchVC-Interface.png */,
+				CD4EC2202784D55600581806 /* SearchVC-Textfield.png */,
+				CD4EC2272784D56100581806 /* FavoriteListVC-Interface.png */,
+				CD4EC2262784D56100581806 /* FollowerListVC-Interface.png */,
+				CD4EC2232784D56100581806 /* FollowerListVC-Modal-1.png */,
+				CD4EC2242784D56100581806 /* FollowerListVC-Modal-2.png */,
+				CD4EC2252784D56100581806 /* SafariVC.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		CD6A48C2276C55FF0061FF39 /* Models */ = {
@@ -262,6 +290,7 @@
 		CD91D73D27671B0300C08393 /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				CD4EC21E2784D53E00581806 /* Resources */,
 				CD6A4911276DF93A0061FF39 /* Utilities */,
 				CD6A48C7276C5B6C0061FF39 /* Managers */,
 				CD6A48C2276C55FF0061FF39 /* Models */,
@@ -453,7 +482,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD91D74B27671B0500C08393 /* LaunchScreen.storyboard in Resources */,
+				CD4EC2212784D55600581806 /* SearchVC-Interface.png in Resources */,
+				CD4EC2222784D55600581806 /* SearchVC-Textfield.png in Resources */,
 				CD91D74827671B0500C08393 /* Assets.xcassets in Resources */,
+				CD4EC22B2784D56100581806 /* FollowerListVC-Interface.png in Resources */,
+				CD4EC22A2784D56100581806 /* SafariVC.png in Resources */,
+				CD4EC2282784D56100581806 /* FollowerListVC-Modal-1.png in Resources */,
+				CD4EC22C2784D56100581806 /* FavoriteListVC-Interface.png in Resources */,
+				CD4EC2292784D56100581806 /* FollowerListVC-Modal-2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
