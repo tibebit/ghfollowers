@@ -111,7 +111,7 @@ class FollowerListVC: GFDataLoadingVC {
             DispatchQueue.main.async {self.showEmptyStateView(with: message, in: self.view)}
             
         }
-        self.updateData(on: self.followers)
+        updateData(on: self.followers)
     }
     
     
