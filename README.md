@@ -1,10 +1,9 @@
 # GHFollowers
 An application which displays the followers that a Github user has. 
-## Installation
 
 ## Description
-I developed this project following the tutorial made by [Sean Allen](https://twitter.com/seanallen_dev). The application uses the GitHub's API to get general information about a user.
-
+The application uses the [GitHub's Users API](https://docs.github.com/en/rest/reference/users) to show information about a user.
+[Users API]
 **Main concepts learned**:
  - Programmatic UI
  - Modern concurrency
@@ -20,12 +19,12 @@ The user uses this screen to search for a GitHub account by entering the usernam
 ### FollowerListVC
 It displays a collection view containing all the followers that a user might have. The user can filter the results on the screen using a search bar. As the user scrolls down and reaches the end of the list, the next hundred of followers gets loaded. Once the user taps on a follower the app presents the UserInfoVC modally.
 
-<img src="GHFollowers/Resources/FollowerListVC-Interface.png" alt="FollowerListVC-Interface" width="300" height="500">
+<img src="GHFollowers/Resources/FollowerListVC-Interface.png" alt="FollowerListVC-Interface" width="320" height="580">
 
 ### FavoriteListVC
 It displays a table view with all the user's favorite Github accounts.
 
-<img src="./Resources/FavoriteListVC-Interface.png" alt="FavoriteListVC-Interface" width="300" height="500">
+<img src="GHFollowers/Resources/FavoriteListVC-Interface.png" alt="FavoriteListVC-Interface" width="320" height="580">
 
 ### UserInfoVC
 It show the following information about a GitHub account:
@@ -37,8 +36,16 @@ It show the following information about a GitHub account:
 
 By tapping on the "Github profile" button, a SafariViewController presents the user's account online. Tapping on the "Get Followers" button shows the FollowerListVC with the followers of that user.
 
-<img src="GHFollowers/Resources/UserInfoVC.png" alt="UserInfoVC" width="300" height="500">
+<img src="GHFollowers/Resources/UserInfoVC.png" alt="UserInfoVC" width="320" height="580">
+## Endpoints
+### [Followers](https://docs.github.com/en/rest/reference/users#followers)
+```
+/user/followers
 
+```
 ## Requirements
 * iOS 15.0
 * Xcode 13
+
+##Credits
+I developed this application by following through the tutorial provided by [Sean Allen](https://twitter.com/seanallen_dev)
