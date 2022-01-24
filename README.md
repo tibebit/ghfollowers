@@ -37,18 +37,18 @@ It show the following information about a GitHub account:
 By tapping on the "Github profile" button, a SafariViewController presents the user's account online. Tapping on the "Get Followers" button shows the FollowerListVC with the followers of that user.
 
 <img src="GHFollowers/Resources/UserInfoVC.png" alt="UserInfoVC" width="320" height="580">
+
 ## Endpoints
 
-### [Followers](https://docs.github.com/en/rest/reference/users#followers)
+#### [Followers](https://docs.github.com/en/rest/reference/users#followers)
 
 ```
 /user/followers
-
 ```
 
 ## Requirements
 * iOS 15.0
 * Xcode 13
 
-##Credits
+## Credits
 I developed this application by following through the tutorial provided by [Sean Allen](https://twitter.com/seanallen_dev)
