@@ -38,11 +38,14 @@ By tapping on the "Github profile" button, a SafariViewController presents the u
 
 <img src="GHFollowers/Resources/UserInfoVC.png" alt="UserInfoVC" width="320" height="580">
 ## Endpoints
+
 ### [Followers](https://docs.github.com/en/rest/reference/users#followers)
+
 ```
 /user/followers
 
 ```
+
 ## Requirements
 * iOS 15.0
 * Xcode 13
