@@ -2,7 +2,8 @@
 An application which displays the followers that a Github user has. 
 
 ## Description
-The application uses the [GitHub's Users API](https://docs.github.com/en/rest/reference/users) to show information about a user.
+
+The application uses the <a href="https://docs.github.com/en/rest/reference/users" target="_blank">GitHub's Users API</a> to show information about a user.
 [Users API]
 **Main concepts learned**:
  - Programmatic UI
@@ -40,7 +41,7 @@ By tapping on the "Github profile" button, a SafariViewController presents the u
 
 ## Endpoints
 
-#### [Followers](https://docs.github.com/en/rest/reference/users#followers)
+#### <a href="https://docs.github.com/en/rest/reference/users#followers" target="_blank">Followers</a>
 
 ```
 /user/followers
@@ -51,4 +52,4 @@ By tapping on the "Github profile" button, a SafariViewController presents the u
 * Xcode 13
 
 ## Credits
-I developed this application by following through the tutorial provided by [Sean Allen](https://twitter.com/seanallen_dev)
+I developed this application by following through the tutorial provided by <a href="https://twitter.com/seanallen_dev" target="_blank">Sean Allen</a>
