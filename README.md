@@ -35,10 +35,8 @@ It shows the following information about a GitHub account:
 * Followers
 * Following
 * The date on which the account was created
-# LINK ON TOP OF THIS DOCUMENT
-By tapping on the "Github profile" button, a SafariViewController presents the user's account webpage. Tapping on the "Get Followers" button shows the [top](<#followerlistvc> "FollowerListVC") with the followers of that user.
 
-[Hello](<#> test)
+By tapping on the "Github profile" button, a SafariViewController presents the user's account webpage. Tapping on the "Get Followers" button shows the [FollowerListVC](<#followerlistvc> "FollowerListVC") with the followers of that user.
 
 <img src="GHFollowers/Resources/UserInfoVC.png" alt="UserInfoVC" width="320" height="684">
 
