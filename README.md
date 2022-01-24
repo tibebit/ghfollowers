@@ -14,12 +14,12 @@ The application uses the <a href="https://docs.github.com/en/rest/reference/user
 ## Screens
 The following is a description of the main screens of the application:
 ### SearchVC
-The user uses this screen to search for a GitHub account by entering the username in a textfield. Once the "Get Followers" button is pressed, the FollowerListVC gets presented on the screen. 
+The user uses this screen to search for a GitHub account by entering the username in a textfield. Once the "Get Followers" button is pressed, the [FollowerListVC](<#followerlistvc> "FollowerListVC Description") gets presented on the screen. 
 <img src="GHFollowers/Resources/SearchVC-Interface.png" alt="SearchVC-Interface" width="320" height="580">
 <img src="GHFollowers/Resources/SearchVC-Textfield.png" alt="SearchVC-Textfield" width="320" height="580">
 
 ### FollowerListVC
-It displays a collection view containing all the followers that a user might have. The user can filter the results on the screen using a search bar. As the user scrolls down and reaches the end of the list, the next hundred followers get loaded. Once the user taps on a follower the app presents the UserInfoVC modally.
+It displays a collection view containing all the followers that a user might have. The user can filter the results on the screen using a search bar. As the user scrolls down and reaches the end of the list, the next hundred followers get loaded. Once the user taps on a follower the app presents the [UserInfoVC](#userinfovc "UserInfoVC Description") modally.
 
 <img src="GHFollowers/Resources/FollowerListVC-Interface.png" alt="FollowerListVC-Interface" width="320" height="580">
 
@@ -36,7 +36,7 @@ It shows the following information about a GitHub account:
 * Following
 * The date on which the account was created
 
-By tapping on the "Github profile" button, a SafariViewController presents the user's account webpage. Tapping on the "Get Followers" button shows the [FollowerListVC](<#followerlistvc> "FollowerListVC") with the followers of that user.
+By tapping on the "Github profile" button, a SafariViewController presents the user's account webpage. Tapping on the "Get Followers" button shows the [FollowerListVC](<#followerlistvc> "FollowerListVC Description") with the followers of that user.
 
 <img src="GHFollowers/Resources/UserInfoVC.png" alt="UserInfoVC" width="320" height="684">
 
