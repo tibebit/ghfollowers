@@ -14,11 +14,11 @@ I developed this project following the tutorial made by [Sean Allen](https://twi
 The following is a description of the main screens of the application:
 ### SearchVC
 The user uses this screen to search for a GitHub account by entering the username in a textfield. Once the "Get Followers" button is pressed, the FollowerListVC gets presented on the screen.
-![Search Screen](../../Resources/FavoriteListVC-Interface.png)
+![Search Screen](GHFollowers/Resources/FavoriteListVC-Interface.png)
 
 ### FollowerListVC
 It displays a collection view containing all the followers that a user might have. The user can filter the results on the screen using a search bar. As the user scrolls down and reaches the end of the list, the next hundred of followers gets loaded. Once the user taps on a follower the app presents the UserInfoVC modally.
-![Followers Screen](../Resources/FollowerListVC-Interface.png)
+![Followers Screen](GHFollowers/Resources/FollowerListVC-Interface.png)
 
 ### FavoriteListVC
 It displays a table view with all the user's favorite Github accounts.
