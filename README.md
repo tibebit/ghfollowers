@@ -15,7 +15,6 @@ The application uses the <a href="https://docs.github.com/en/rest/reference/user
 The following is a description of the main screens of the application:
 ### SearchVC
 The user uses this screen to search for a GitHub account by entering the username in a textfield. Once the "Get Followers" button is pressed, the FollowerListVC gets presented on the screen. 
-
 <img src="GHFollowers/Resources/SearchVC-Interface.png" alt="SearchVC-Interface" width="320" height="580">
 <img src="GHFollowers/Resources/SearchVC-Textfield.png" alt="SearchVC-Textfield" width="320" height="580">
 
