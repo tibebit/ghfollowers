@@ -12,7 +12,7 @@ The application uses the [GitHub's Users API](https://docs.github.com/en/rest/re
 ## Screens
 The following is a description of the main screens of the application:
 ### SearchVC
-The user uses this screen to search for a GitHub account by entering the username in a textfield. Once the "Get Followers" button is pressed, the FollowerListVC gets presented on the screen.
+The user uses this screen to search for a GitHub account by entering the username in a textfield. Once the "Get Followers" button is pressed, the FollowerListVC gets presented on the screen.<br>
 <img src="GHFollowers/Resources/SearchVC-Interface.png" alt="SearchVC-Interface" width="320" height="580">
 <img src="GHFollowers/Resources/SearchVC-Textfield.png" alt="SearchVC-Textfield" width="320" height="580">
 
@@ -36,7 +36,7 @@ It show the following information about a GitHub account:
 
 By tapping on the "Github profile" button, a SafariViewController presents the user's account online. Tapping on the "Get Followers" button shows the FollowerListVC with the followers of that user.
 
-<img src="GHFollowers/Resources/UserInfoVC.png" alt="UserInfoVC" width="320" height="580">
+<img src="GHFollowers/Resources/UserInfoVC.png" alt="UserInfoVC" width="320" height="684">
 
 ## Endpoints
 
