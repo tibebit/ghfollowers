@@ -1,6 +1,4 @@
 # GHFollowers
-An application that displays the followers that a Github user has. 
-
 ## Description
 
 The application uses the <a href="https://docs.github.com/en/rest/reference/users" target="_blank">GitHub's Users API</a> to show information about a user.
@@ -8,7 +6,6 @@ The application uses the <a href="https://docs.github.com/en/rest/reference/user
 **Main concepts learned**:
  - Programmatic UI
  - Modern concurrency
- - Dynamic Type
  - Clean MVC Architecture
  
 ## Screens
